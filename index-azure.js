@@ -1,13 +1,4 @@
 
-app.set('view engine', 'ejs');
-
-app.get('/', (req, res) => {
-  res.render('../index.ejs');
-})
-
-app.get('/:id', function (req, res) {
-  res.send(req.params)
-})
 module.exports = async function (context, req) {
     context.log('JavaScript HTTP trigger function processed a request.');
 
