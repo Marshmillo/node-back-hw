@@ -6,7 +6,7 @@ const port = 3003
 app.set('view engine', 'ejs');
 
 app.get('/', (req, res) => {
-  res.render('index');
+  res.render('../index.ejs');
 })
 
 app.get('/:id', function (req, res) {
