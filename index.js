@@ -1,7 +1,7 @@
 const express = require('express')
 const serverless = require('serverless-http');
 const app = express()
-const port = 3003
+const port = 443
 
 app.set('view engine', 'ejs');
 
